@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">sliceMobileApp</string>
+    <string name="welcomeMessage">Welcome to Slice Pizzeria</string>
+    <string name="pizzas">Pizzas</string>
+    <string name="sides">Sides</string>
+    <string name="slices">Slices</string>
+    <string name="sweets">Sweets</string>
+    <string name="calzones_stromboli">Calzones/Stromboli</string>
+    <string name="pasta">Pasta</string>
+    <string name="salads">Salads</string>
+    <string name="todo">TODO</string>
+    <string name="cheese_pizza">Cheese Pizza</string>
+    <string name="b_b_g_pizza">B.B.G. Pizza</string>
+    <string name="white_pizza_description">Our ricotta blend with mozzarella, Parmesan, and basil</string>
+    <string name="white_pizza">White Pizza</string>
+    <string name="fresh_pizza_description">Our garlic oil base with fresh mozzarella, tomatoes, basil, and a dash of crushed red pepper</string>
+    <string name="bbg_pizza_description">Our white pizza base with Nieman Ranch bacon, roasted garlic, and fresh basil</string>
+    <string name="meatlover_pizza">Meatlover Pizza</string>
+    <string name="d_luxe_pizza_description">Our red pizza sauce with pepperoni, Italian sausage, crushed meatballs, onions, green bell peppers, mushrooms, and Kalamata olives</string>
+    <string name="d_luxe_pizza">D-Luxe Pizza</string>
+    <string name="the_fresh">The Fresh</string>
+    <string name="cheese_pizza_description">Roasted tomato herb pizza sauce, mozzarella cheese, Parmesan</string>
+    <string name="meatlover_pizza_description">Our red pizza sauce with pepperoni, Nieman Ranch bacon, crushed meatballs, and Chisesi ham</string>
+    <string name="veggie_pizza_description">Our red pizza sauce with roasted cremini mushrooms, green bell peppers, onions, tomatoes, minced garlic, and Kalamata olives</string>
+    <string name="bbq_chicken_pizza_description">Our tangy BBQ pizza sauce with chicken, caramelized onions, Nieman Ranch bacon, fresh mozzarella, and parsley</string>
+    <string name="four_cheese_margherita_pizza">Four Cheese Margherita Pizza</string>
+    <string name="four_cheese_margherita_pizza_description">Our red pizza sauce with fresh and shredded mozzarella, Provolone, Parmesan, tomato, and basil</string>
+    <string name="bbq_chicken_pizza">BBQ Chicken Pizza</string>
+    <string name="flying_hawaiian_pizza">Flying Hawaiian Pizza</string>
+    <string name="flying_hawaiian_pizza_description">Our red pizza sauce with chicken, ham, green bell peppers, pineapple, jalapenos, and Nieman Ranch bacon</string>
+    <string name="wicked_garden_pizza">Wicked Garden Pizza</string>
+    <string name="wicked_garden_pizza_description">Our white pizza with spinach, sun-dried tomatoes, caramelized onions, and roasted garlic</string>
+    <string name="crush_pizza">The Crush Pizza</string>
+    <string name="crush_pizza_description">Our red pizza sauce with crushed meatballs, minced garlic, and extra sauce</string>
+    <string name="pga_pizza">PGA Pizza</string>
+    <string name="pga_pizza_description">Our red pizza sauce with creamy Gorgonzola, Prosciutto, and arugula</string>
+    <string name="addcheesepizza">addCheesePizza</string>
+    <string name="addmeatloverspizza">addMeatLoversPizza</string>
+    <string name="adddluxepizza">addDLuxePizza</string>
+    <string name="addbbgpizza">addBBGPizza</string>
+    <string name="addwhitepizza">addWhitePizza</string>
+    <string name="addfreshpizza">addFreshPizza</string>
+    <string name="veggie_pizza">Veggie Pizza</string>
+    <string name="addveggiepizza">addVeggiePizza</string>
+    <string name="addfourcheesemargheritapizza">addFourCheeseMargheritaPizza</string>
+    <string name="addbbqchickenpizza">addBBQChickenPizza</string>
+    <string name="addflyinghawaiianpizza">addFlyingHawaiianPizza</string>
+    <string name="addwickedgardenpizza">addWickedGardenPizza</string>
+    <string name="addcrushpizza">addCrushPizza</string>
+    <string name="addpgapizza">addPGAPizza</string>
+    <string name="house_salad">House Salad</string>
+    <string name="house_salad_description">Lettuce, mushrooms, onions, green bell peppers, olives, tomatoes, and mozzarella.  Paired with Italian dressing</string>
+    <string name="caesar_salad">Caesar Salad</string>
+    <string name="caesar_salad_description">Lettuce, garlic croutons, and Pecorino.  Paired with Caesar dressing</string>
+    <string name="greek_salad">Greek Salad</string>
+    <string name="greek_salad_description">Lettuce, artichoke hearts, cucumbers, onions, tomatoes, Feta, and Kalamata olives.  Paired with creamy Greek dressing.</string>
+    <string name="mesclun_salad">Mesclun Salad</string>
+    <string name="mesclun_salad_description">Mixed field greens, goat cheese, pecans, and seasonal berries.  Paired with Balsamic vinaigrette.</string>
+    <string name="arugula_salad">Arugula Salad</string>
+    <string name="arugula_salad_description">Arugula, tomatoes, lemon, and Pecorino.  Paired with Honey Lemon Vinaigrette.</string>
+    <string name="chef_salad">Chef Salad</string>
+    <string name="chef_salad_description">Lettuce, Cucumber, tomato, garlic croutons, herb-roasted chicken, Nieman Ranch bacon, and Chisesi ham.  Paired with housemade Ranch.</string>
+    <string name="spaghetti">Spaghetti and Meatballs</string>
+    <string name="spaghetti_description">House-made meatballs (6) in a marinara sauce over linguine pasta.</string>
+    <string name="mac_and_cheese">Mac and Cheese</string>
+    <string name="mac_and_cheese_description">A creamy blend of cheeses mixed with macaroni noodles.</string>
+    <string name="lasagna">Lasagna</string>
+    <string name="lasagna_description">Our house-made meatballs, crushed, and sausage layered with rich cheese, pasta, and marinara.</string>
+    <string name="meatloaf">Smoked Meatloaf</string>
+    <string name="meatloaf_description">A delicious blend of smoked meatloaf, consisting of beef, pork, and veal, with a spicy red sauce, served over our creamy mac and cheese.</string>
+    <string name="bbq_shrimp">BBQ Shrimp</string>
+    <string name="bbq_shrimp_description">Our award-winning BBQ sauce, served with gulf shrimp (6), over linguine noodles.</string>
+    <string name="cheese_calzone">Cheese Calzone</string>
+    <string name="cheese_calzone_description">Combination of ricotta and mozzarella.  Served with tomato gravy.</string>
+    <string name="spinach_calzone">Spinach Calzone</string>
+    <string name="spinach_calzone_description">Combination of ricotta, mozzarella, minced garlic, and spinach. Served with tomato gravy.</string>
+    <string name="trucker_calzone">The Trucker Calzone</string>
+    <string name="trucker_calzone_description">Combination of pepperoni, sausage, Chisesi ham, and Nieman Ranch bacon with ricotta and mozzarella.  Served with tomato gravy.</string>
+    <string name="wicked_garden_calzone">Wicked Garden Calzone</string>
+    <string name="wicked_garden_calzone_description">Combination of spinach, sun-dried tomato, caramelized onions, roasted garlic, ricotta, and mozzarella.  Served with tomato gravy.</string>
+    <string name="meatball_stromboli">Meatball Stromboli</string>
+    <string name="meatball_stromboli_description">Combination of meatballs, tomato gravy, and mozzarella.  Served with tomato gravy.</string>
+    <string name="cheesy_garlic_bread">Cheesy Garlic Bread</string>
+    <string name="cheesy_garlic_bread_description">Blend of cheese on french bread loaf.  Served with tomato gravy.</string>
+    <string name="meatballs">Meatballs</string>
+    <string name="meatballs_description">Six of our 2-bite house meatballs.  Served with toasted garlic bread.  Upgrade to cheesy garlic bread +$2</string>
+    <string name="spinach_artichoke_dip">Spinach Artichoke Dip</string>
+    <string name="spinach_artichoke_dip_description">Made from scratch with 5 cheeses, spinach, artichokes, and love. Served with toasted garlic bread.</string>
+    <string name="bread_pudding">Seasonal Bread Pudding</string>
+    <string name="bread_pudding_description">Our award-winning bread pudding made with seasonal ingredients.</string>
+    <string name="cookie">Cookie</string>
+    <string name="cookie_description">Our delicious house-made chocolate chip cookies.</string>
+    <string name="brownie">Brownie</string>
+    <string name="brownie_description">Our delicious and chewy brownie.</string>
+    <string name="brookie">Brookie</string>
+    <string name="brookie_description">A chocolate chip cookie baked in a brownie.</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

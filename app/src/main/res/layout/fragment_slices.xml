@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cdb083"
+    tools:context=".slices">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        >
+
+        <TextView
+            android:id="@+id/cheese_slice"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:text="Cheese Slice"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/pepperoni_slice"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/addCheeseSlice"
+            android:layout_width="35dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="5dp"
+            android:src="@android:drawable/ic_input_add"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cheese_slice"
+            app:layout_constraintBottom_toTopOf="@+id/pepperoni_slice"
+            />
+
+        <TextView
+            android:id="@+id/pepperoni_slice"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Pepperoni Slice"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/meatlover_slice"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cheese_slice" />
+
+        <ImageButton
+            android:id="@+id/addPepperoniSlice"
+            android:layout_width="35dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="5dp"
+            android:src="@android:drawable/ic_input_add"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/pepperoni_slice"
+            app:layout_constraintBottom_toTopOf="@+id/meatlover_slice"
+            />
+
+        <TextView
+            android:id="@+id/meatlover_slice"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Meatlover Slice"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/wicked_garden_slice"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pepperoni_slice" />
+
+        <ImageButton
+            android:id="@+id/addMeatloverSlice"
+            android:layout_width="35dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="5dp"
+            android:src="@android:drawable/ic_input_add"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/meatlover_slice"
+            app:layout_constraintBottom_toTopOf="@+id/wicked_garden_slice"
+            />
+
+        <TextView
+            android:id="@+id/wicked_garden_slice"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Wicked Garden Slice"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/meatlover_slice" />
+
+        <ImageButton
+            android:id="@+id/addWickedGardenSlice"
+            android:layout_width="35dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="5dp"
+            android:src="@android:drawable/ic_input_add"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/wicked_garden_slice"
+            app:layout_constraintTop_toBottomOf="@id/meatlover_slice" />
+        />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
