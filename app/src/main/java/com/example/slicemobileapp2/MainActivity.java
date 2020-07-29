@@ -2,8 +2,9 @@ package com.example.slicemobileapp2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Fragment;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 import android.view.View;
@@ -16,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
-            main_menu fragment1 = new main_menu();
-            getFragmentManager()
+            Fragment fragment = new main_menu();
+            getSupportFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.fragment_container, fragment1)
+                    .replace(R.id.fragment_container, fragment)
                     .commit();
         }
 
