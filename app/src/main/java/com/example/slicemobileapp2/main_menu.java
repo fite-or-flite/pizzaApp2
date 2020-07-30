@@ -47,23 +47,25 @@ public class main_menu extends Fragment {
             }
         });
 
-        pastaButton.setOnClickListener(new View.OnClickListener() {
+        calzoneButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // Code here executes fragment transaction to pasta page
+                // Code here executes fragment transaction to calzone page
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                pasta fragment = new pasta();
+                calzone fragment = new calzone();
                 fragmentTransaction.replace(R.id.fragment_container, fragment)
-                        .addToBackStack("pasta")
+                        .addToBackStack("calzone")
                         .commit();
             }
         });
 
-        calzoneButton.setOnClickListener(new View.OnClickListener() {
+        pastaButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // Code here executes fragment transaction to calzone page
+                // Code here executes fragment transaction to pasta page
+
             }
         });
+
 
         saladsButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
