@@ -50,6 +50,12 @@ public class main_menu extends Fragment {
         pastaButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes fragment transaction to pasta page
+                FragmentManager fragmentManager = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                pasta fragment = new pasta();
+                fragmentTransaction.replace(R.id.fragment_container, fragment)
+                        .addToBackStack("pasta")
+                        .commit();
             }
         });
 
