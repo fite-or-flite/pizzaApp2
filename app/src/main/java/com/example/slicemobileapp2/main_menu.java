@@ -1,6 +1,7 @@
 package com.example.slicemobileapp2;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.Button;
 import androidx.fragment.app.Fragment;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -20,7 +22,10 @@ public class main_menu extends Fragment {
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 
-        super.onCreate(savedInstanceState);
+        //idk if i need the below, since it's for oncreate??
+        //super.onCreate(savedInstanceState);
+        super.onCreateView(inflater, container, savedInstanceState);
+
         View v = inflater.inflate(R.layout.fragment_main_menu, container, false);
 
         Button pizzaButton = v.findViewById(R.id.pizzaButton);
@@ -34,14 +39,15 @@ public class main_menu extends Fragment {
         pizzaButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes fragment transaction to pizza page
+
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = null;
                 if (fragmentManager != null)
                     fragmentTransaction = fragmentManager.beginTransaction();
-                pizza fragment = new pizza();
+                Fragment fragment = new pizza();
                 if (fragmentTransaction != null) {
                     fragmentTransaction.replace(R.id.fragment_container, fragment)
-                            .addToBackStack("pizza")
+                            .addToBackStack(null)
                             .commit();
                 }
             }
@@ -50,11 +56,12 @@ public class main_menu extends Fragment {
         calzoneButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes fragment transaction to calzone page
-                FragmentManager fragmentManager = getFragmentManager();
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                calzone fragment = new calzone();
-                fragmentTransaction.replace(R.id.fragment_container, fragment)
-                        .addToBackStack("calzone")
+
+                Fragment fragment = new calzone();
+                getFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.fragment_container, fragment)
+                        .addToBackStack(null)
                         .commit();
             }
         });
@@ -62,7 +69,6 @@ public class main_menu extends Fragment {
         pastaButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes fragment transaction to pasta page
-
             }
         });
 
